@@ -12,6 +12,7 @@ import Clock from "./Components/04_Life/Clock"
 import Game from "./Components/05_States/Game"
 import ControlledInput from "./Components/06_Forms/ControlledInput"
 import Car from "./Components/05_States/Exercise/Car"
+import SearchList from "./Components/07_LiftingState/SearchList"
 
 
 const App = () => {
@@ -27,7 +28,8 @@ const App = () => {
             {/* <Clock/> */}
             {/* <Game/> */}
             {/* <ControlledInput /> */}
-            <Car/>
+            {/* <Car/> */}
+            <SearchList/>
         </div>
     );
 }
