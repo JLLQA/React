@@ -1,6 +1,5 @@
-// import First from "./Components/01-Intro/First";
-// import Second from "./Components/01-Intro/Second";
-
+import First from "./Components/01_Intro/First";
+import Second from "./Components/01_Intro/Second";
 import Container from "./Components/02_Parent-Child/Container"
 import Parent from "./Components/03_Props/01-Simple/Parent"
 import PropsWithDifferentTypes from "./Components/03_Props/02-Intermediate/PropsWithDifferentTypes"
@@ -13,6 +12,7 @@ import Game from "./Components/05_States/Game"
 import ControlledInput from "./Components/06_Forms/ControlledInput"
 import Car from "./Components/05_States/Exercise/Car"
 import SearchList from "./Components/07_LiftingState/SearchList"
+import Shopping from "./Components/08_Hooks/Shopping"
 
 
 const App = () => {
@@ -29,7 +29,8 @@ const App = () => {
             {/* <Game/> */}
             {/* <ControlledInput /> */}
             {/* <Car/> */}
-            <SearchList/>
+            {/* <SearchList/> */}
+            <Shopping/>
         </div>
     );
 }
