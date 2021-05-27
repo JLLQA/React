@@ -1,5 +1,5 @@
-import First from "./Components/01_Intro/First";
-import Second from "./Components/01_Intro/Second";
+// import First from "./Components/01_Intro/First";
+// import Second from "./Components/01_Intro/Second";
 import Container from "./Components/02_Parent-Child/Container"
 import Parent from "./Components/03_Props/01-Simple/Parent"
 import PropsWithDifferentTypes from "./Components/03_Props/02-Intermediate/PropsWithDifferentTypes"
@@ -27,10 +27,10 @@ const App = () => {
             {/* <Comments/> */}
             {/* <Clock/> */}
             {/* <Game/> */}
-            {/* <ControlledInput /> */}
+            <ControlledInput />
             {/* <Car/> */}
             {/* <SearchList/> */}
-            <Shopping/>
+            {/* <Shopping/> */}
         </div>
     );
 }
