@@ -26,7 +26,7 @@ const Disney = () => {
         return (
             <>
                 <Grid data={data}/>
-                {/* <Pages changePage={changePage}/> */}
+                <Pages changePage={changePage}/>
             </>
         );
     } else {

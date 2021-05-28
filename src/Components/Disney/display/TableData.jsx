@@ -15,7 +15,6 @@ const TableData = ({ object }) => {
             <td>
                 <div className="img-container">
                     <img src={object.imageUrl.split("/revision/")[0]} alt="" onClick={toggle} />
-
                     <div className="img-overlay" onClick={toggle}>
                         <div className="img-text">{object.name}</div>
                     </div>
