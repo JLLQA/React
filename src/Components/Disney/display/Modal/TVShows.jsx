@@ -1,16 +1,17 @@
-const TVShows = ({tvshows}) => {
+const TV = ({ tvs }) => {
+
     return (
         <>
             <h4>TV Shows</h4>
             <ul>
-                {tvshows.map((show, i) => (
+                {tvs.map((tv, i) => (
                     <li key={i}>
-                        {show}
+                        {tv}
                     </li>
                 ))}
             </ul>
         </>
-    );
+    )
 }
 
-export default TVShows;
+export default TV;

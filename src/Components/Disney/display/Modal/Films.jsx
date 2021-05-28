@@ -1,5 +1,4 @@
-
-const Films = ({films}) => {
+const Films = ({ films }) => {
 
     return (
         <>
@@ -12,7 +11,7 @@ const Films = ({films}) => {
                 ))}
             </ul>
         </>
-    );
+    )
 }
 
 export default Films;

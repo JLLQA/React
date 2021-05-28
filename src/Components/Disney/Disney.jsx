@@ -18,7 +18,7 @@ const Disney = () => {
             console.log(err.message);
             setIsLoaded(true);
         });
-    }, [page]);
+    }, []);
 
     const changePage = (e) => setPage(e.target.id);
 
@@ -26,7 +26,7 @@ const Disney = () => {
         return (
             <>
                 <Grid data={data}/>
-                <Pages changePage={changePage}/>
+                {/* <Pages changePage={changePage}/> */}
             </>
         );
     } else {

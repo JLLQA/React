@@ -10,7 +10,7 @@ body {
 img {
     width: 8vw;
     height: 8vw;
-    border-radius: 20px 0px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #img-grid {
@@ -41,7 +41,7 @@ img {
     opacity: 0;
     transition: .5s ease;
     background-color: #bfbd4db8;
-    border-radius: 20px 0px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .img-container:hover .img-overlay {

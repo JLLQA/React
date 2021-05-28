@@ -1,16 +1,17 @@
-const VideoGames = ({ games }) => {
+const VideoGames = ({ videogames }) => {
+
     return (
         <>
-            <h4>Video Games</h4>
+            <h4>TV Shows</h4>
             <ul>
-                {games.map((game, i) => (
+                {videogames.map((videogame, i) => (
                     <li key={i}>
-                        {game}
+                        {videogame}
                     </li>
                 ))}
             </ul>
         </>
-    );
+    )
 }
 
 export default VideoGames;
